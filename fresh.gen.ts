@@ -3,32 +3,40 @@
 // This file is automatically updated during development when running `dev.ts`.
 
 import config from "./deno.json" assert { type: "json" };
-import * as $0 from "./routes/_app.tsx";
-import * as $1 from "./routes/_middleware.ts";
-import * as $2 from "./routes/devtools_demos_proxy.ts";
-import * as $3 from "./routes/index.tsx";
-import * as $4 from "./routes/og.jsx";
-import * as $5 from "./routes/prefetch/[num].tsx";
-import * as $6 from "./routes/prefetch/index.tsx";
-import * as $7 from "./routes/sleep.tsx";
-import * as $8 from "./routes/utils/nanoid.json.tsx";
-import * as $9 from "./routes/utils/nanoid.tsx";
-import * as $10 from "./routes/utils/sha1.tsx";
+import * as $0 from "./routes/_404.tsx";
+import * as $1 from "./routes/_500.tsx";
+import * as $2 from "./routes/_app.tsx";
+import * as $3 from "./routes/_middleware.ts";
+import * as $4 from "./routes/devtools_demos_proxy.ts";
+import * as $5 from "./routes/feed/fetch.tsx";
+import * as $6 from "./routes/index.tsx";
+import * as $7 from "./routes/og.jsx";
+import * as $8 from "./routes/prefetch/[num].tsx";
+import * as $9 from "./routes/prefetch/index.tsx";
+import * as $10 from "./routes/prerender/index.tsx";
+import * as $11 from "./routes/sleep.tsx";
+import * as $12 from "./routes/utils/nanoid.json.tsx";
+import * as $13 from "./routes/utils/nanoid.tsx";
+import * as $14 from "./routes/utils/sha1.tsx";
 import * as $$0 from "./islands/Counter.tsx";
 
 const manifest = {
   routes: {
-    "./routes/_app.tsx": $0,
-    "./routes/_middleware.ts": $1,
-    "./routes/devtools_demos_proxy.ts": $2,
-    "./routes/index.tsx": $3,
-    "./routes/og.jsx": $4,
-    "./routes/prefetch/[num].tsx": $5,
-    "./routes/prefetch/index.tsx": $6,
-    "./routes/sleep.tsx": $7,
-    "./routes/utils/nanoid.json.tsx": $8,
-    "./routes/utils/nanoid.tsx": $9,
-    "./routes/utils/sha1.tsx": $10,
+    "./routes/_404.tsx": $0,
+    "./routes/_500.tsx": $1,
+    "./routes/_app.tsx": $2,
+    "./routes/_middleware.ts": $3,
+    "./routes/devtools_demos_proxy.ts": $4,
+    "./routes/feed/fetch.tsx": $5,
+    "./routes/index.tsx": $6,
+    "./routes/og.jsx": $7,
+    "./routes/prefetch/[num].tsx": $8,
+    "./routes/prefetch/index.tsx": $9,
+    "./routes/prerender/index.tsx": $10,
+    "./routes/sleep.tsx": $11,
+    "./routes/utils/nanoid.json.tsx": $12,
+    "./routes/utils/nanoid.tsx": $13,
+    "./routes/utils/sha1.tsx": $14,
   },
   islands: {
     "./islands/Counter.tsx": $$0,

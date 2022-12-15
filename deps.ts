@@ -1,13 +1,21 @@
 import "https://deno.land/std@0.145.0/dotenv/load.ts";
 import { parse } from "https://deno.land/std@0.145.0/flags/mod.ts";
+import { faker } from "https://esm.sh/@faker-js/faker/locale/en";
 
-
-export const { verbose } = parse(Deno.args, {
+const args = parse(Deno.args, {
   default: {
     verbose: false,
+    seed: false,
   },
 });
 
+export const verbose = args.verbose;
+
+if (args.seed) {
+  faker.seed(args.seed);
+}
+
+export { faker };
 // https://github.com/ai/nanoid/blob/main/nanoid.js
 export const nanoid = (t = 21) =>
   crypto
