@@ -30,18 +30,21 @@ export async function handler(
 export default function Home(props: PageProps) {
   console.log(props, "props");
   const { num_images, image_urls } = props.data;
-
+  // Use dangerouslySetInnerHTML to render the images so it doesn't append a unique param
+  // like &__frsh_c=n78s9ba62gc0 to the image file (as we're trying to prefetch exactly this)
+  const img_html = image_urls.map((url) => `<img src="${url}" />`).join("");
   return (
     <>
       <Head>
         <title>Document loading {num_images} images</title>
       </Head>
       <div>Document loading {num_images} images</div>
-      <div className="image-grid">
-        {image_urls.map((url) => (
-          <img src={url} />
-        ))}
-      </div>
+      <div
+        className="image-grid"
+        dangerouslySetInnerHTML={{
+          __html: img_html,
+        }}
+      ></div>
     </>
   );
 }
