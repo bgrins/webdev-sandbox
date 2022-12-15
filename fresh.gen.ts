@@ -9,6 +9,8 @@ import * as $2 from "./routes/index.tsx";
 import * as $3 from "./routes/og.jsx";
 import * as $4 from "./routes/prefetch/[num].tsx";
 import * as $5 from "./routes/prefetch/index.tsx";
+import * as $6 from "./routes/utils/nanoid.json.tsx";
+import * as $7 from "./routes/utils/nanoid.tsx";
 import * as $$0 from "./islands/Counter.tsx";
 
 const manifest = {
@@ -19,6 +21,8 @@ const manifest = {
     "./routes/og.jsx": $3,
     "./routes/prefetch/[num].tsx": $4,
     "./routes/prefetch/index.tsx": $5,
+    "./routes/utils/nanoid.json.tsx": $6,
+    "./routes/utils/nanoid.tsx": $7,
   },
   islands: {
     "./islands/Counter.tsx": $$0,

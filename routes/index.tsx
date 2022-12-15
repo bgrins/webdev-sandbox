@@ -3,28 +3,47 @@ import Counter from "../islands/Counter.tsx";
 
 // https://wpt.live/
 
+const utilities = [
+  {
+    name: "Opengraph image generator",
+    href: "/og",
+  },
+  {
+    name: "Prefetch",
+    href: "/prefetch",
+  },
+  {
+    name: "nanoid generator",
+    href: "/utils/nanoid",
+  },
+];
+const see_also = [
+  {
+    href: "https://wpt.live/",
+  },
+  {
+    href: "https://bgrins.github.io/devtools-demos/",
+  },
+];
+
 export default function Home() {
   return (
     <>
       <p class="note">A set of utilities to test out web APIs:</p>
       <ul>
-        <li>
-          <a href="/og">Opengraph image generator</a>
-        </li>
-        <li>
-          <a href="/prefetch">Prefetch</a>
-        </li>
+        {utilities.map((link) => (
+          <li>
+            <a href={link.href}>{link.name || link.href}</a>{" "}
+          </li>
+        ))}
       </ul>
       <p class="note">See also:</p>
       <ul>
-        <li>
-          <a href="https://wpt.live/">https://wpt.live/</a>
-        </li>
-        <li>
-          <a href="https://bgrins.github.io/devtools-demos/">
-            https://bgrins.github.io/devtools-demos/
-          </a>
-        </li>
+        {see_also.map((link) => (
+          <li>
+            <a href={link.href}>{link.name || link.href}</a>{" "}
+          </li>
+        ))}
       </ul>
     </>
   );
