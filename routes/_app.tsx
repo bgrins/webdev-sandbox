@@ -1,5 +1,6 @@
 import { AppProps } from "$fresh/server.ts";
 import { Head } from "$fresh/runtime.ts";
+import IconBrandGithub from "https://deno.land/x/tabler_icons_tsx@0.0.2/tsx/brand-github.tsx";
 
 export default function App(props: AppProps) {
   const { Component } = props;
@@ -15,7 +16,7 @@ export default function App(props: AppProps) {
           <a href="/">webdev sandbox</a>
         </h1>
         <a class="repo-link" href="https://github.com/bgrins/webdev-sandbox">
-          repository
+          <IconBrandGithub></IconBrandGithub>
         </a>
       </header>
 
