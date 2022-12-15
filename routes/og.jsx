@@ -4,12 +4,14 @@ export async function handler(req, ctx) {
   const { searchParams } = new URL(req.url);
   const fontSize = searchParams.get("fontSize") || 60;
   const backgroundColor = searchParams.get("backgroundColor") || "lavender";
+  const width = searchParams.get("width") || 1200;
+  const height = searchParams.get("height") || 627;
   const debug = searchParams.get("debug") || false;
   let text = searchParams.getAll("text");
   if (!text.length) {
     text = ["👋", "Try ?text=hello&text=there"];
   }
-  console.log(searchParams.getAll("text"));
+  // console.log(searchParams.getAll("text"));
   return new ImageResponse(
     (
       <div
@@ -31,6 +33,8 @@ export async function handler(req, ctx) {
     ),
     {
       debug,
+      width,
+      height,
     }
   );
 }

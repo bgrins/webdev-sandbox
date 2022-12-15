@@ -18,7 +18,6 @@ export async function handler(req: Request, _ctx: HandlerContext): Promise<Respo
   }
   const path = pathname.replace("/devtools-demos", "");
 
-  console.log(path);
   const url = `https://bgrins.github.io/devtools-demos${path}`;
 
   return await fetch(url);

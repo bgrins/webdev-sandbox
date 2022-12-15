@@ -45,6 +45,8 @@ export default function Home() {
           </li>
         ))}
       </ul>
+
+      <img src="/og?text=Hello+world&width=600&height=400" />
     </>
   );
 }
