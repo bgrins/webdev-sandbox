@@ -13,7 +13,7 @@ import * as $6 from "./routes/prefetch/index.tsx";
 import * as $7 from "./routes/sleep.tsx";
 import * as $8 from "./routes/utils/nanoid.json.tsx";
 import * as $9 from "./routes/utils/nanoid.tsx";
-import * as $10 from "./routes/utils/sha1.ts";
+import * as $10 from "./routes/utils/sha1.tsx";
 import * as $$0 from "./islands/Counter.tsx";
 
 const manifest = {
@@ -28,7 +28,7 @@ const manifest = {
     "./routes/sleep.tsx": $7,
     "./routes/utils/nanoid.json.tsx": $8,
     "./routes/utils/nanoid.tsx": $9,
-    "./routes/utils/sha1.ts": $10,
+    "./routes/utils/sha1.tsx": $10,
   },
   islands: {
     "./islands/Counter.tsx": $$0,
