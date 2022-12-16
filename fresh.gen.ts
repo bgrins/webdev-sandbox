@@ -16,13 +16,14 @@ import * as $9 from "./routes/og.jsx";
 import * as $10 from "./routes/prefetch/[num].tsx";
 import * as $11 from "./routes/prefetch/index.tsx";
 import * as $12 from "./routes/prerender/index.tsx";
-import * as $13 from "./routes/prerender/noprerender-target.tsx";
-import * as $14 from "./routes/prerender/nostate-prefetch.tsx";
-import * as $15 from "./routes/prerender/prerender-target.tsx";
-import * as $16 from "./routes/sleep.tsx";
-import * as $17 from "./routes/utils/nanoid.json.tsx";
-import * as $18 from "./routes/utils/nanoid.tsx";
-import * as $19 from "./routes/utils/sha1.tsx";
+import * as $13 from "./routes/prerender/mega.tsx";
+import * as $14 from "./routes/prerender/noprerender-target.tsx";
+import * as $15 from "./routes/prerender/nostate-prefetch.tsx";
+import * as $16 from "./routes/prerender/prerender-target.tsx";
+import * as $17 from "./routes/sleep.tsx";
+import * as $18 from "./routes/utils/nanoid.json.tsx";
+import * as $19 from "./routes/utils/nanoid.tsx";
+import * as $20 from "./routes/utils/sha1.tsx";
 import * as $$0 from "./islands/Counter.tsx";
 
 const manifest = {
@@ -40,13 +41,14 @@ const manifest = {
     "./routes/prefetch/[num].tsx": $10,
     "./routes/prefetch/index.tsx": $11,
     "./routes/prerender/index.tsx": $12,
-    "./routes/prerender/noprerender-target.tsx": $13,
-    "./routes/prerender/nostate-prefetch.tsx": $14,
-    "./routes/prerender/prerender-target.tsx": $15,
-    "./routes/sleep.tsx": $16,
-    "./routes/utils/nanoid.json.tsx": $17,
-    "./routes/utils/nanoid.tsx": $18,
-    "./routes/utils/sha1.tsx": $19,
+    "./routes/prerender/mega.tsx": $13,
+    "./routes/prerender/noprerender-target.tsx": $14,
+    "./routes/prerender/nostate-prefetch.tsx": $15,
+    "./routes/prerender/prerender-target.tsx": $16,
+    "./routes/sleep.tsx": $17,
+    "./routes/utils/nanoid.json.tsx": $18,
+    "./routes/utils/nanoid.tsx": $19,
+    "./routes/utils/sha1.tsx": $20,
   },
   islands: {
     "./islands/Counter.tsx": $$0,
