@@ -13,6 +13,10 @@ const utilities = [
     href: "/prefetch",
   },
   {
+    name: "Prerender",
+    href: "/prerender",
+  },
+  {
     name: "nanoid generator",
     href: "/utils/nanoid",
   },

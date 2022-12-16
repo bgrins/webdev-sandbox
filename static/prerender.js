@@ -19,14 +19,16 @@ console.log("Currently prerendering: ", document.prerendering);
   }
 
   const timing = document.createElement("strong");
-  const activation_start = Math.round(navigation_performance.activationStart);
+  const activation_start = Math.round(
+    navigation_performance.activationStart || 0
+  );
   timing.textContent = `${activation_start}ms to activate`;
   document.body.append(timing);
 
   // Would be cool to make this more of a report (more performance timings,
   // change color, etc)
   const img = document.createElement("img");
-  img.src = `/og?text=${activation_start} to activate`;
+  img.src = `/og?text=${activation_start}ms to activate`;
   document.body.append(img);
 
   let pre = document.createElement("pre");
