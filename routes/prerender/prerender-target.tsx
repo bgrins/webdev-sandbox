@@ -7,7 +7,8 @@ import { Head } from "$fresh/runtime.ts";
 export default function Home() {
   return (
     <>
-      <h2>{faker.commerce.productName()}</h2>
+      <h2>Allowed Prerender - {faker.commerce.productName()}</h2>
+      <img src="/og?text=Loaded in the markup&backgroundColor=lightblue&width=600&height=400&fontSize=40" />
       <script src="/prerender.js"></script>
     </>
   );
