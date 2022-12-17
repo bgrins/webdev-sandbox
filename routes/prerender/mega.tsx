@@ -1,9 +1,6 @@
 import { faker } from "../../deps.ts";
 import { Head } from "$fresh/runtime.ts";
 
-// Check Header Sec-Purpose: prefetch;prerender
-// Link to the sleep page - including with a param to allow caching
-
 const URLS_TO_PRERENDER = Array(100)
   .fill(0)
   .map((_, i) => `/prerender/prerender-target/?sleep=${i * 50}`);
