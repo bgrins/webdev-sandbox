@@ -2,6 +2,9 @@ import "https://deno.land/std@0.145.0/dotenv/load.ts";
 import { parse } from "https://deno.land/std@0.145.0/flags/mod.ts";
 import { faker } from "https://esm.sh/@faker-js/faker/locale/en";
 
+// Todo - default sleep value based on env or command line which gets exported and used by the middleware
+
+
 const args = parse(Deno.args, {
   default: {
     verbose: false,
