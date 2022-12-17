@@ -19,7 +19,6 @@ export async function handler(
 
   console.log(emoji, ctx.params);
 
-  // Regex to check for unicode code point and extract hex
   const passed_code_point = emoji.match(/U\+([0-9A-F]{4,6})/i)?.[1];
   if (passed_code_point) {
     emoji = String.fromCodePoint(`0x${passed_code_point}`);
