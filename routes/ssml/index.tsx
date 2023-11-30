@@ -139,7 +139,7 @@ export default function Home(props) {
           </details>
           <details open>
             <summary>Reader HTML</summary>
-            <iframe srcdoc={html} width="100%"></iframe>
+            <iframe sandbox="" srcdoc={html} width="100%"></iframe>
           </details>
         </>
       )}
