@@ -233,7 +233,10 @@
     }
   },
   "redirects": {
+    "https://deno.land/std/async/mod.ts": "https://deno.land/std@0.168.0/async/mod.ts",
     "https://deno.land/std/encoding/base64.ts": "https://deno.land/std@0.208.0/encoding/base64.ts",
+    "https://deno.land/x/og_edge/mod.ts": "https://deno.land/x/og_edge@0.0.4/mod.ts",
+    "https://esm.sh/@faker-js/faker/locale/en": "https://esm.sh/@faker-js/faker@7.6.0/locale/en",
     "https://esm.sh/linkedom": "https://esm.sh/linkedom@0.15.1"
   },
   "remote": {

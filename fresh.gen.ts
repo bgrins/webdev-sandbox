@@ -23,10 +23,11 @@ import * as $16 from "./routes/prerender/noprerender-target.tsx";
 import * as $17 from "./routes/prerender/nostate-prefetch.tsx";
 import * as $18 from "./routes/prerender/prerender-target.tsx";
 import * as $19 from "./routes/sleep.tsx";
-import * as $20 from "./routes/utils/blurhash.tsx";
-import * as $21 from "./routes/utils/nanoid.json.tsx";
-import * as $22 from "./routes/utils/nanoid.tsx";
-import * as $23 from "./routes/utils/sha1.tsx";
+import * as $20 from "./routes/ssml/index.tsx";
+import * as $21 from "./routes/utils/blurhash.tsx";
+import * as $22 from "./routes/utils/nanoid.json.tsx";
+import * as $23 from "./routes/utils/nanoid.tsx";
+import * as $24 from "./routes/utils/sha1.tsx";
 import * as $$0 from "./islands/Counter.tsx";
 
 const manifest = {
@@ -51,10 +52,11 @@ const manifest = {
     "./routes/prerender/nostate-prefetch.tsx": $17,
     "./routes/prerender/prerender-target.tsx": $18,
     "./routes/sleep.tsx": $19,
-    "./routes/utils/blurhash.tsx": $20,
-    "./routes/utils/nanoid.json.tsx": $21,
-    "./routes/utils/nanoid.tsx": $22,
-    "./routes/utils/sha1.tsx": $23,
+    "./routes/ssml/index.tsx": $20,
+    "./routes/utils/blurhash.tsx": $21,
+    "./routes/utils/nanoid.json.tsx": $22,
+    "./routes/utils/nanoid.tsx": $23,
+    "./routes/utils/sha1.tsx": $24,
   },
   islands: {
     "./islands/Counter.tsx": $$0,

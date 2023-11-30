@@ -64,6 +64,10 @@ details .summary-header h2 {
   font-family: monospace;
 }
 
+pre {
+  overflow: auto;
+}
+
 .image-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));

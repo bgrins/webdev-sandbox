@@ -157,13 +157,6 @@ async function digest_sha1(message) {
   return hashHex;
 }
 
-function extract_opengraph(html, options) {
-  return extract_from_document(
-    new DOMParser().parseFromString(html, "text/html"),
-    options
-  );
-}
-
 async function fetch_page(url, { verbose = false, wayback = false } = {}) {
   if (wayback) {
     url = `https://archive.org/wayback/available?url=${url.toString()}`;
