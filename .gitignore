@@ -1,3 +1,5 @@
 .DS_Store
 .env
 reader-audio/fixture
+# Fresh build directory
+_fresh/
