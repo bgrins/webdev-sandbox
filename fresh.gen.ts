@@ -23,11 +23,13 @@ import * as $prerender_nostate_prefetch from "./routes/prerender/nostate-prefetc
 import * as $prerender_prerender_target from "./routes/prerender/prerender-target.tsx";
 import * as $sleep from "./routes/sleep.tsx";
 import * as $ssml_index from "./routes/ssml/index.tsx";
+import * as $trustedtypes from "./routes/trustedtypes.tsx";
 import * as $utils_blurhash from "./routes/utils/blurhash.tsx";
 import * as $utils_nanoid_json from "./routes/utils/nanoid.json.tsx";
 import * as $utils_nanoid from "./routes/utils/nanoid.tsx";
 import * as $utils_sha1 from "./routes/utils/sha1.tsx";
 import * as $Counter from "./islands/Counter.tsx";
+import * as $TrustedTypes from "./islands/TrustedTypes.jsx";
 import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -53,6 +55,7 @@ const manifest = {
     "./routes/prerender/prerender-target.tsx": $prerender_prerender_target,
     "./routes/sleep.tsx": $sleep,
     "./routes/ssml/index.tsx": $ssml_index,
+    "./routes/trustedtypes.tsx": $trustedtypes,
     "./routes/utils/blurhash.tsx": $utils_blurhash,
     "./routes/utils/nanoid.json.tsx": $utils_nanoid_json,
     "./routes/utils/nanoid.tsx": $utils_nanoid,
@@ -60,6 +63,7 @@ const manifest = {
   },
   islands: {
     "./islands/Counter.tsx": $Counter,
+    "./islands/TrustedTypes.jsx": $TrustedTypes,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;

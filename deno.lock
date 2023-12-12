@@ -4,6 +4,7 @@
     "specifiers": {
       "npm:@mozilla/readability@^0.4.4": "npm:@mozilla/readability@0.4.4",
       "npm:aws-sdk@2.1509.0": "npm:aws-sdk@2.1509.0",
+      "npm:dompurify": "npm:dompurify@3.0.6",
       "npm:prettier@3.1.0": "npm:prettier@3.1.0",
       "npm:ssml-split@0.5.0": "npm:ssml-split@0.5.0"
     },
@@ -58,6 +59,10 @@
           "gopd": "gopd@1.0.1",
           "has-property-descriptors": "has-property-descriptors@1.0.1"
         }
+      },
+      "dompurify@3.0.6": {
+        "integrity": "sha512-ilkD8YEnnGh1zJ240uJsW7AzE+2qpbOUYjacomn3AvJ6J4JhKGSZ2nh4wUIXPZrEPppaCLx5jFe8T89Rk8tQ7w==",
+        "dependencies": {}
       },
       "events@1.1.1": {
         "integrity": "sha512-kEcvvCBByWXGnZy6JUlgAp2gBIUjfCAV6P6TgT1/aaQKcmuAEC4OZTV1I4EWQLz2gxZw76atuVyvHhTxvi0Flw==",
