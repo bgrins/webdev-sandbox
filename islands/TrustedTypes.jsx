@@ -1,6 +1,6 @@
 import { IS_BROWSER } from "$fresh/runtime.ts";
 import { useRef, useEffect } from "preact/hooks";
-import DOMPurify from "npm:dompurify";
+import DOMPurify from "https://esm.sh/dompurify@3.0.6";
 
 export default function TrustedTypes() {
   if (!IS_BROWSER) return <div></div>;
