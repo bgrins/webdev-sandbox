@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Fresh App</title>
+        <title>Analytics test</title>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-4TWRKLG194"></script>
        
         <script
