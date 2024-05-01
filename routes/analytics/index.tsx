@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <Head>
         <title>Analytics test</title>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-4TWRKLG194"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-8T41M1RK76"></script>
        
         <script
           type="speculationrules"
@@ -22,7 +22,7 @@ export default function Home() {
             });
             gtag('js', new Date());
   
-            gtag('config', 'G-4TWRKLG194');
+            gtag('config', 'G-8T41M1RK76');
 
 `,
           }}
