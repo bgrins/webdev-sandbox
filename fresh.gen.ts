@@ -6,6 +6,7 @@ import * as $_404 from "./routes/_404.tsx";
 import * as $_500 from "./routes/_500.tsx";
 import * as $_app from "./routes/_app.tsx";
 import * as $_middleware from "./routes/_middleware.ts";
+import * as $analytics_index from "./routes/analytics/index.tsx";
 import * as $devtools_demos_proxy from "./routes/devtools_demos_proxy.ts";
 import * as $emoji_index from "./routes/emoji/index.tsx";
 import * as $feed_fetch from "./routes/feed/fetch.tsx";
@@ -38,6 +39,7 @@ const manifest = {
     "./routes/_500.tsx": $_500,
     "./routes/_app.tsx": $_app,
     "./routes/_middleware.ts": $_middleware,
+    "./routes/analytics/index.tsx": $analytics_index,
     "./routes/devtools_demos_proxy.ts": $devtools_demos_proxy,
     "./routes/emoji/index.tsx": $emoji_index,
     "./routes/feed/fetch.tsx": $feed_fetch,
